@@ -216,7 +216,12 @@ li.active[class] span,
   background: var(--background);
   box-shadow: none;
 }
-
+.c-virtual_list__scroll-container{
+   background:var(--background);
+}
+.c-message--hover{
+   background:var(--background-hover);
+}
 #client_body, #messages_container.has_top_messages_banner:before {
    background: var(--background) !important;
 }
